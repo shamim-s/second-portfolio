@@ -12,6 +12,10 @@ h1 {
     font-size: 50px;
 }
 
+section {
+    margin-bottom: 150px;
+}
+
 .section-one {
     display: flex;
     background-image: url(img/top-banner.png);
@@ -21,7 +25,7 @@ h1 {
 
 .head-content {
     width: 50%;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 .head-img img {
@@ -33,6 +37,7 @@ h1 {
     background-color: blueviolet;
     padding: 10px 40px;
     color: white;
+    border-radius: 10px;
 }
 
 /*----------------Section One------------------*/
@@ -43,4 +48,42 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
     padding: 5%;
+}
+
+/*----------------Section Three------------------*/
+.exp {
+    color: blueviolet;
+    margin-left: 5%;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.div-one {
+    width: 40%;
+    margin: 5% 5%;
+    box-shadow: 10px 10px 30px grey;
+    padding: 20px;
+    border-left: 7px solid blueviolet;
+}
+
+h3 {
+    color: orangered;
+}
+
+.h-one {
+    color: blueviolet;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: blueviolet;
 }
